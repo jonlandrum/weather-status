@@ -55,11 +55,15 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
+        "height": 375,
         "resizable": true,
         "title": "Weather Status",
-        "width": 800
+        "width": 400
       }
-    ]
+    ],
+    "systemTray": {
+      "iconPath": "icons/icon.png",
+      "iconAsTemplate": true
+    }
   }
 }

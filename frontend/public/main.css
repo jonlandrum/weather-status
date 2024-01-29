@@ -1,9 +1,29 @@
-body {
-    margin: 20px;
-    background: #2D2D2D;
-    color: white;
+* {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
-.heading {
+body {
+    margin: 20px;
+}
+
+h1 {
+    font-weight: 400;
     text-align: center;
+}
+
+fieldset {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+legend {
+    margin: 0.25rem;
+    font-size: 1.25rem;
+    line-height: 1rem;
+}
+
+input[type=submit] {
+    margin: 0 0 0 auto;
+    display: block;
 }
